@@ -219,11 +219,11 @@ def check_root() -> None:
             # sys.exit(1)
 
 
-
+"""
 def parse_args():
-    """
+    
     Parse command-line arguments for flexible use.
-    """
+    
     parser = argparse.ArgumentParser(description="Scapy Enhanced Packet Script")
     parser.add_argument("--mac", default="aa:bb:cc:dd:ee:ff", help="Source MAC address")
     parser.add_argument("--src_ip", default="192.168.x.x, help="Source IP address")
@@ -243,14 +243,10 @@ def parse_args():
 
 
 
-
-
-
-
 def main():
-    """
+    \"""
     Main function to demonstrate building and sending a packet with various options.
-    """
+    \"""
     check_root()
     args = parse_args()
 
@@ -291,3 +287,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
