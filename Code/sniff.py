@@ -1,9 +1,4 @@
 
-#!https://scapy.readthedocs.io/en/latest/usage.html
-#!https://www.geeksforgeeks.org/packet-sniffing-using-scapy/
-
-
-
 #!/usr/bin/env python3
 """
 A simple packet-sniffing utility using Scapy. 
